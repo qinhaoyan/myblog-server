@@ -1,0 +1,7 @@
+<uwsgi>
+<socket>127.0.0.1:8080</socket>
+<chdir>/home/myblog-server-master</chdir>
+<module>wsgi</module>
+<processes>100</processes>
+<daemonize>uwsgi.log</daemonize>
+</uwsgi>
